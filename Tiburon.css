@@ -1,0 +1,284 @@
+/* -----------------------Start Header--------------------------- */
+
+header {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  background-color: aliceblue;
+  height: 93px;
+  border-radius: 10px;
+  transition: all 250ms 0s ease;
+  /* box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); */
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+
+  /* justify-content: space-between; */
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  transition: all 250ms 0s ease;
+}
+.logo:hover {
+  scale: 1.01;
+}
+header:hover {
+  scale: 1.01;
+}
+.logo img {
+  width: 93px;
+  height: 93%;
+  transition: all 250ms 0s ease;
+}
+.logo img:hover {
+  scale: 1.1;
+  opacity: 1;
+}
+
+h1 {
+  margin-top: 15px;
+  font-size: 50px;
+  color: blue;
+  cursor: pointer;
+  transition: all 250ms 0s ease;
+}
+h1:hover {
+  color: red;
+}
+
+/* -----------------------End Header--------------------------- */
+
+/* -----------------------Start Declaration--------------------------- */
+
+/* Introduction */
+
+body {
+  background-image: url(./Media/img/Body-Background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 90px;
+  transition: all 250ms 0s ease;
+}
+
+.declaration {
+  border-style: groove;
+  border-radius: 20px;
+  border: black solid;
+  display: block;
+  width: 40%;
+  margin: auto;
+  width: 1000px;
+  /* height: 600px; */
+  margin-top: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+p {
+  color: white;
+}
+ul li {
+  color: yellow;
+}
+
+h2 {
+  font-size: xx-large;
+  width: 30%;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  transform: translateX(130%);
+  color: red;
+  transition: all 250ms 0s ease;
+}
+h2:hover {
+  color: white;
+}
+h3 {
+  color: red;
+  font-size: x-large;
+  /* transform: translateX(40%); */
+  display: flex;
+  margin: auto;
+  width: 15%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  transition: all 250ms 0s ease;
+}
+h3:hover {
+  color: white;
+}
+h4 {
+  font-size: large;
+  color: chartreuse;
+}
+
+.info {
+  margin-left: 30px;
+  font-size: large;
+  font-style: initial;
+}
+
+/* -----------------------End Declaration--------------------------- */
+
+/* ---------------Photo------------------ */
+.containerX {
+  display: flex;
+  align-items: center;
+
+  border-radius: 20px;
+  border-color: black;
+  border: black solid;
+  margin: auto;
+  justify-content: space-between;
+  width: 800px;
+  height: 600px;
+}
+.containerY {
+  overflow: hidden;
+  width: 85%px;
+  height: 90%;
+  border-radius: 10px;
+  background-color: black;
+  border-color: black;
+  border: 5px;
+  cursor: pointer;
+}
+.imgs {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transform: translateX(0);
+  transition: transform 300ms ease-out;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  transition: scale 200ms ease-out;
+}
+img:hover {
+  scale: 1.1;
+}
+.svg {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 90ms ease-out;
+}
+.svg:hover {
+  opacity: 0.8;
+}
+.svg:active {
+  scale: 0.9;
+}
+/* ---------------Photo------------------ */
+
+/* Start Contact Form */
+
+.pContact {
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: scale 250ms 0s ease-out;
+}
+.pContact:hover {
+  scale: 1.1;
+  color: red;
+  font-size: bold;
+}
+.main_2 {
+  margin: auto;
+  width: 20%;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+label {
+  margin-right: 5px;
+}
+.input {
+  /* border-radius: 10px;
+  color: darkslateblue;
+  height: 40px;
+  width: 250px;
+  font-size: medium;
+  background-color: rgba(195, 226, 239, 0.508);
+   height: 40px;
+   border-radius: 100px; */
+  width: 250px;
+  height: 5px;
+  color: rgb(0, 0, 0);
+  font-size: medium;
+  background-color: rgba(195, 226, 239, 0.508);
+  transition: all 0.275s 0s ease-out;
+}
+.input:hover {
+  cursor: pointer;
+  height: 40px;
+}
+input:active {
+  border-bottom-color: rgb(0, 183, 255);
+}
+input:invalid {
+  background-color: black;
+  border-radius: 100px;
+  color: aqua;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.Sub {
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  border-radius: 15px;
+  height: 50px;
+  width: 257px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all ease 0.25s 0.001s;
+}
+.Sub:hover {
+  background-color: white;
+  color: black;
+}
+/* End Contact Form */
+
+/* ---------------Footer------------------ */
+footer {
+  background-color: transparent;
+  height: 93px;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+.disigned {
+  width: fit-content;
+  margin: auto;
+
+  height: fit-content;
+  text-align: center;
+}
+.p {
+  width: 100%;
+  font-size: x-large;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 20px;
+  transition: color 200ms ease-out;
+}
+.p:hover {
+  color: green;
+
+  cursor: crosshair;
+}
+/* ---------------Footer------------------ */
