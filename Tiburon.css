@@ -65,13 +65,48 @@ body {
   margin-top: 90px;
   transition: all 250ms 0s ease;
 }
+.general-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 65%;
+  height: fit-content;
+  padding: 10px;
+  border: 3px black solid;
+  outline: none;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+.general-info h3 {
+  width: fit-content;
+}
+.general-info span {
+  font-weight: bolder;
+}
+.general-info p {
+  line-height: 30px;
+  font-size: 18px;
+  color: rgb(246, 255, 0);
+}
+
+.general-info ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: yellow;
+}
 
 .declaration {
+  padding: 15px 25px;
   border-style: groove;
   border-radius: 20px;
   border: black solid;
   display: block;
-  width: 40%;
+  width: 65%;
   margin: auto;
   width: 1000px;
   /* height: 600px; */
@@ -135,12 +170,12 @@ h4 {
   border: black solid;
   margin: auto;
   justify-content: space-between;
-  width: 800px;
+  width: 55%;
   height: 600px;
 }
 .containerY {
   overflow: hidden;
-  width: 85%px;
+  width: 85%;
   height: 90%;
   border-radius: 10px;
   background-color: black;
